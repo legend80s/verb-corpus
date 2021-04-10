@@ -57,6 +57,14 @@ describe('verb', () => {
     expect(actual).toEqual(expected);
   });
 
+  it('"query" should be included in the verb list', () => {
+    const input = 'query';
+    const actual = index.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
   it('"resume" should be included in the verb list', () => {
     const input = 'resume';
     const actual = index.filter(v => v === input).length;

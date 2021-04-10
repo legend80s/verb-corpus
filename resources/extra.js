@@ -9,6 +9,17 @@ module.exports = [
   'create',
   'resume',
   'initialize',
+  'refresh',
+  'update',
+  'upgrade',
+  'query',
+  'navigate',
+  'customize',
+  'goto',
+  'operate',
+  'adjust',
+  'append',
+  'focus',
 
   // https://www.englishclub.com/vocabulary/regular-verbs-list.htm
   "accept",
