@@ -26,6 +26,14 @@ module.exports = [
   'deconstruct',
   'stringify',
   'parse',
+  'validate',
+  'consult',
+  'render',
+  'filter',
+  'vibrate',
+  'confirm',
+  'verify',
+  'animate',
 
   // https://www.englishclub.com/vocabulary/regular-verbs-list.htm
   "accept",
