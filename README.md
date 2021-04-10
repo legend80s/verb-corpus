@@ -1,8 +1,13 @@
-<h1 align="center">Welcome to verb-corpus 👋</h1>
+<h1 align="center">Welcome to Verb Corpus 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  <a href="https://www.npmjs.com/package/verb-corpus" target="_blank">
+    <img src="https://img.shields.io/npm/v/verb-corpus.svg" alt="npm version" />
+  </a>
+
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+
+  <a href="https://www.npmjs.com/package/git-commit-msg-linter" target="_blank">
+    <img alt="linter by git commit msg linter" src="https://img.shields.io/badge/git-commit%20msg%20linter-blue" />
   </a>
 </p>
 
