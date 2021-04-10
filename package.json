@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "node build",
-    "prepublishOnly": "npm run build && npm test",
+    "prepublishOnly": "npm test",
     "test": "npm run build && jest"
   },
   "repository": {
