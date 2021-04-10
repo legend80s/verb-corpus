@@ -4,6 +4,10 @@
     <img src="https://img.shields.io/npm/v/verb-corpus.svg" alt="npm version" />
   </a>
 
+  <a href="https://www.npmjs.com/package/verb-corpus">
+    <img src="https://img.shields.io/npm/dm/verb-corpus.svg" alt="npm downloads" />
+  </a>
+
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 
   <a href="https://www.npmjs.com/package/git-commit-msg-linter" target="_blank">
