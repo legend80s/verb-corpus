@@ -20,6 +20,12 @@ module.exports = [
   'adjust',
   'append',
   'focus',
+  'concat',
+  'construct',
+  'destruct',
+  'deconstruct',
+  'stringify',
+  'parse',
 
   // https://www.englishclub.com/vocabulary/regular-verbs-list.htm
   "accept",
