@@ -4,7 +4,7 @@
   "description": "Complete English verb list.",
   "main": "index.js",
   "files": [
-    "./resources/complete.json",
+    "resources/complete.json",
     "./index.js"
   ],
   "scripts": {
