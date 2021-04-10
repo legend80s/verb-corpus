@@ -36,6 +36,12 @@ console.log(verbs.length);
 npm test
 ```
 
+## Publish
+
+```sh
+npm version patch && npm publish && gp && gp --tags
+```
+
 ## Author
 
 👤 **legend80s**
