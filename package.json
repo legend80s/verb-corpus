@@ -1,0 +1,32 @@
+{
+  "name": "verb-corpus",
+  "version": "0.0.0",
+  "description": "Complete English verb list.",
+  "main": "index.js",
+  "files": [
+    "./resources/complete.json",
+    "./index.js"
+  ],
+  "scripts": {
+    "build": "node build",
+    "prepublishOnly": "npm run build && npm test",
+    "test": "npm run build && jest"
+  },
+  "repository": {
+    "url": ""
+  },
+  "keywords": [],
+  "tnpm": {
+    "mode": "yarn",
+    "lockfile": "enable"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "english-verbs-gerunds": "^1.1.8",
+    "english-verbs-irregular": "^1.1.8",
+    "git-commit-msg-linter": "^3.1.0",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {}
+}
