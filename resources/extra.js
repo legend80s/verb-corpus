@@ -8,6 +8,7 @@ module.exports = [
   'delete',
   'create',
   'resume',
+  'initialize',
 
   // https://www.englishclub.com/vocabulary/regular-verbs-list.htm
   "accept",
