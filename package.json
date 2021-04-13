@@ -1,6 +1,6 @@
 {
   "name": "verb-corpus",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Complete English verb list.",
   "main": "index.js",
   "files": [
@@ -34,6 +34,5 @@
     "english-verbs-irregular": "^1.1.8",
     "git-commit-msg-linter": "^3.1.0",
     "jest": "^26.6.3"
-  },
-  "dependencies": {}
+  }
 }
