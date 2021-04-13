@@ -15,7 +15,14 @@
   "repository": {
     "url": ""
   },
-  "keywords": [],
+  "keywords": [
+    "verbs",
+    "verb list",
+    "verb checker",
+    "is verb",
+    "English verb list",
+    "Complete verb list"
+  ],
   "tnpm": {
     "mode": "yarn",
     "lockfile": "enable"

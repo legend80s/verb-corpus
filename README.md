@@ -34,6 +34,10 @@ const verbs = require('verb-corpus');
 console.log(verbs.length);
 ```
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/legend80s/verb-corpus/master/assets/verbs.png" alt="verbs demo" width="61.8%" />
+</p>
+
 ## Run tests
 
 ```sh
