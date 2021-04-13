@@ -34,6 +34,9 @@ module.exports = [
   'confirm',
   'verify',
   'animate',
+  "act",
+  'react',
+  'visualize',
 
   // https://www.englishclub.com/vocabulary/regular-verbs-list.htm
   "accept",
