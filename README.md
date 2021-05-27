@@ -47,7 +47,7 @@ npm test
 ## Publish
 
 ```sh
-npm version patch && npm publish && gp && gp --tags
+npm version patch
 ```
 
 ## Author
