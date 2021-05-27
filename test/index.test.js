@@ -120,4 +120,20 @@ describe('verb', () => {
 
     expect(actual).toEqual(expected);
   });
+
+  it('"charge" should be included in the verb list', () => {
+    const input = 'charge';
+    const actual = index.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
+  it('"recharge" should be included in the verb list', () => {
+    const input = 'recharge';
+    const actual = index.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
 });
