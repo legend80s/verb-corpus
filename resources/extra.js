@@ -1,4 +1,5 @@
 module.exports = [
+  'extract',
   'process',
   'recharge',
   'resolve',
