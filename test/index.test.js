@@ -1,6 +1,14 @@
 const index = require('..')
 
 describe('verb', () => {
+  it('"apply" should be included in the verb list', () => {
+    const input = 'apply';
+    const actual = index.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
   it('"extract" should be included in the verb list', () => {
     const input = 'extract';
     const actual = index.filter(v => v === input).length;
