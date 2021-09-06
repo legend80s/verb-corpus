@@ -22,7 +22,7 @@ There are thousands of regular verbs in English. This is a list of some 1600 of 
 ## Install
 
 ```sh
-npm install --save
+npm install --save verb-corpus
 ```
 
 ## Use
