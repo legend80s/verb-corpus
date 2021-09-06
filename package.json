@@ -14,7 +14,7 @@
     "test": "npm run build && jest"
   },
   "repository": {
-    "url": ""
+    "url": "https://github.com/legend80s/verb-corpus.git"
   },
   "keywords": [
     "verbs",
