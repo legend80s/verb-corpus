@@ -1,4 +1,6 @@
 module.exports = [
+  'redirect',
+
   'apply',
   'extract',
   'process',
