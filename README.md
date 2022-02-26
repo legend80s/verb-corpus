@@ -17,7 +17,7 @@
 
 > Almost complete English verb list. 1600+ common English verbs.
 
-There are thousands of regular verbs in English. This is a list of some 1600 of the more common regular verbs. Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
+There are thousands of regular verbs in English. This is a list of some 1800 of the more common regular verbs. Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
 
 ## Install
 
@@ -31,7 +31,7 @@ npm install --save verb-corpus
 /** @type {string[]} */
 const verbs = require('verb-corpus');
 
-console.log(verbs.length);
+console.log(verbs.length); // 1830+
 ```
 
 <p align="center">
