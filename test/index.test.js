@@ -105,10 +105,10 @@ describe('verb', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('"has" should not be included in the verb list', () => {
+  it('"has" should be included in the verb list', () => {
     const input = 'has';
     const actual = index.filter(v => v === input).length;
-    const expected = 0;
+    const expected = 1;
 
     expect(actual).toEqual(expected);
   });
