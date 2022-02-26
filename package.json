@@ -1,7 +1,7 @@
 {
   "name": "verb-corpus",
   "version": "2.0.0",
-  "description": "Complete English verb list.",
+  "description": "Almost complete programming English verb list.",
   "main": "index.js",
   "files": [
     "resources/complete.json",

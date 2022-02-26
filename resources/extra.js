@@ -5,6 +5,9 @@ module.exports = [
   'should',
   "next",
 
+  'emphasize',
+  'emphasise',
+
   // https://www.runoob.com/w3cnote/common-english-terminology-in-programming.html
   'abbreviate',
   'abstract',

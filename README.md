@@ -15,7 +15,7 @@
   </a>
 </p>
 
-> Almost complete English verb list. 1600+ common English verbs.
+> Almost complete English verb list. 1800+ common programming English verbs.
 
 There are thousands of regular verbs in English. This is a list of some 1800 of the more common regular verbs. Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
 
