@@ -89,18 +89,18 @@ describe('verb', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('"is" should not be included in the verb list', () => {
+  it('"is" should be included in the verb list', () => {
     const input = 'is';
     const actual = index.filter(v => v === input).length;
-    const expected = 0;
+    const expected = 1;
 
     expect(actual).toEqual(expected);
   });
 
-  it('"should" should not be included in the verb list', () => {
+  it('"should" should be included in the verb list', () => {
     const input = 'should';
     const actual = index.filter(v => v === input).length;
-    const expected = 0;
+    const expected = 1;
 
     expect(actual).toEqual(expected);
   });
