@@ -1,4 +1,7 @@
 module.exports = [
+  'highlight',
+  'slice',
+  'convert',
   'process',
   'recharge',
   'resolve',
@@ -466,6 +469,7 @@ module.exports = [
   "recognise",
   "record",
   "reduce",
+  "redirect",
   "reflect",
   "refuse",
   "regret",
