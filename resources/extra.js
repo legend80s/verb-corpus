@@ -1,4 +1,9 @@
 module.exports = [
+  'normalize',
+  'concatenate',
+  'link',
+  'cleanse',
+  'advance',
   'patch',
   'require',
   'install',
