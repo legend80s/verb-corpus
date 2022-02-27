@@ -48,7 +48,7 @@ console.log(complete.length); // => 4249
 
 ## Features
 
-- ✅ Supper fast 🚀 because all the verbs are pre-built for performance and no run cost suffered.
+- ✅ Super fast 🚀 because all the verbs are pre-built for performance and no run cost suffered.
 - ✅ Almost COMPLETE English verb list.
   - Programming commonly used verbs.
   - Eric Brill's English lexicon verbs.
