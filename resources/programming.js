@@ -1,6 +1,8 @@
 /** programming verbs collected from internet websites */
 // 891 => 958
 module.exports = [
+  "feed",
+
   // https://juejin.cn/post/6844904085632581640
   ...[
     "new",
@@ -240,7 +242,7 @@ module.exports = [
     "parse",
     "repeat",
     "replace",
-    "snake",
+    // "snake",
     "split",
     "start",
     "starts",
