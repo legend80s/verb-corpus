@@ -17,7 +17,9 @@
 
 > Almost COMPLETE English verb list.
 
-There are thousands of regular verbs in English. This is a ALMOST COMPLETE list of common regular verbs. Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
+There are thousands of regular verbs in English. This is a almost COMPLETE list of common regular verbs.
+
+> Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
 
 ## Install
 
@@ -27,11 +29,13 @@ npm install --save verb-corpus
 
 ## Use
 
+[Playground - RunKit](https://runkit.com/embed/yj0inu8j8ji7).
+
 ```javascript
 /** @type {{ programming: string[]; lexicon: string[]; complete: string[]; }} */
 const { programming, lexicon, complete } = require('verb-corpus');
 
-// Programming common verbs
+// Programming verbs
 console.log(programming.length); // => 892+
 
 // Eric Brill's English lexicon verbs.
@@ -45,14 +49,15 @@ console.log(complete.length); // => 4250
 ## Features
 
 - ✅ Supper fast 🚀 because all the verbs are pre-built for performance and no run cost suffered.
-- ✅ Programming commonly used verbs.
-- ✅ Eric Brill's English lexicon verbs.
 - ✅ Almost COMPLETE English verb list.
+  - Programming commonly used verbs.
+  - Eric Brill's English lexicon verbs.
+  - Verbs from 2 npm packages "english-verbs-gerunds" and "english-verbs-irregular"
 
 ## Run tests
 
 ```sh
-npm test # powered by Vitest
+npm test # Powered by Vitest
 ```
 
 ## Publish
