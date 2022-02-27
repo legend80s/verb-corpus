@@ -147,8 +147,40 @@ describe('Complete Verbs', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('"module" should not be included in the verb list', () => {
+  it('"module" should NOT be included in the verb list', () => {
     const input = 'module';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 0;
+
+    expect(actual).toEqual(expected);
+  });
+
+  it('"%" should NOT be included in the verb list', () => {
+    const input = '%';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 0;
+
+    expect(actual).toEqual(expected);
+  });
+
+  it('"a" should NOT be included in the verb list', () => {
+    const input = 'a';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 0;
+
+    expect(actual).toEqual(expected);
+  });
+
+  it('"```" should NOT be included in the verb list', () => {
+    const input = '```';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 0;
+
+    expect(actual).toEqual(expected);
+  });
+
+  it('"understand\\/adopt" should NOT be included in the verb list', () => {
+    const input = "understand\\/adopt";
     const actual = verbs.filter(v => v === input).length;
     const expected = 0;
 

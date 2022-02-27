@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { uniq } = require('../utils/lite-lodash');
+const { uniq, isValidVerb } = require('../utils/lite-lodash');
 
 function main() {
   buildProgrammingVerbs();
@@ -13,7 +13,7 @@ main()
 function buildProgrammingVerbs() {
   const rawVerbs = require('../resources/programming');
 
-  const verbs = uniq(rawVerbs).sort();
+  const verbs = uniq(rawVerbs).filter(isValidVerb).sort();
 
   console.info(verbs.length, 'programming verbs');
 
@@ -31,7 +31,7 @@ function buildLexiconVerbs() {
   // VB - https://web.stanford.edu/~jurafsky/slp3/8.pdf or https://github.com/dariusk/pos-js
   const rawVerbs = Object.keys(lexicon).filter((key) => lexicon[key].indexOf('VB') !== -1);
 
-  const verbs = uniq(rawVerbs).sort();
+  const verbs = uniq(rawVerbs).filter(isValidVerb).sort();
 
   console.info(verbs.length, 'lexicon verbs');
 
@@ -61,7 +61,7 @@ function buildCompleteVerbs() {
       .map(v => v.trim())
       .filter(Boolean)
       .filter(verb => {
-        if (/[\-\s]/.test(verb) || blacklist.includes(verb)) {
+        if (!isValidVerb(verb) || blacklist.includes(verb)) {
           rejected.push(verb);
 
           return false;

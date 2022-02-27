@@ -8,4 +8,12 @@ function uniq(arr) {
   )];
 }
 
+/**
+ * @param {string} verb
+ * @returns {boolean}
+ */
+module.exports.isValidVerb = (verb) => {
+  return /^[a-z]{2,}$/.test(verb);
+}
+
 module.exports.uniq = uniq;
