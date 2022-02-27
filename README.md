@@ -19,7 +19,7 @@
 
 There are thousands of regular verbs in English. This is a almost COMPLETE list of common regular verbs.
 
-> Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
+Note that there are some spelling variations in American English (for example, practise becomes practice in American English).
 
 ## Install
 
