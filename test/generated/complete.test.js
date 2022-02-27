@@ -1,9 +1,27 @@
-const index = require('..')
+import { describe, it, expect } from 'vitest';
 
-describe('verb', () => {
+const { complete: verbs } = require('../..')
+
+describe('Complete Verbs', () => {
+  it('"stipulate" should be included in the verb list', () => {
+    const input = 'stipulate';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
+  it('"uglify" should be included in the verb list', () => {
+    const input = 'uglify';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
   it('"apply" should be included in the verb list', () => {
     const input = 'apply';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -11,7 +29,7 @@ describe('verb', () => {
 
   it('"extract" should be included in the verb list', () => {
     const input = 'extract';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -19,7 +37,7 @@ describe('verb', () => {
 
   it('"get" should be included in the verb list', () => {
     const input = 'get';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -27,7 +45,7 @@ describe('verb', () => {
 
   it('"set" should be included in the verb list', () => {
     const input = 'set';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -35,7 +53,7 @@ describe('verb', () => {
 
   it('"make" should be included in the verb list', () => {
     const input = 'make';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -43,7 +61,7 @@ describe('verb', () => {
 
   it('"generate" should be included in the verb list', () => {
     const input = 'generate';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -51,7 +69,7 @@ describe('verb', () => {
 
   it('"book" should be included in the verb list', () => {
     const input = 'book';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -59,7 +77,7 @@ describe('verb', () => {
 
   it('"do" should be included in the verb list', () => {
     const input = 'do';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -67,7 +85,7 @@ describe('verb', () => {
 
   it('"mask" should be included in the verb list', () => {
     const input = 'mask';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -75,7 +93,7 @@ describe('verb', () => {
 
   it('"query" should be included in the verb list', () => {
     const input = 'query';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -83,7 +101,7 @@ describe('verb', () => {
 
   it('"resume" should be included in the verb list', () => {
     const input = 'resume';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -91,7 +109,7 @@ describe('verb', () => {
 
   it('"is" should be included in the verb list', () => {
     const input = 'is';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -99,7 +117,7 @@ describe('verb', () => {
 
   it('"should" should be included in the verb list', () => {
     const input = 'should';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -107,7 +125,7 @@ describe('verb', () => {
 
   it('"has" should be included in the verb list', () => {
     const input = 'has';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -115,7 +133,7 @@ describe('verb', () => {
 
   it('"cat" should not be included in the verb list', () => {
     const input = 'cat';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 0;
 
     expect(actual).toEqual(expected);
@@ -123,7 +141,7 @@ describe('verb', () => {
 
   it('"dog" should not be included in the verb list', () => {
     const input = 'dog';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 0;
 
     expect(actual).toEqual(expected);
@@ -131,7 +149,7 @@ describe('verb', () => {
 
   it('"module" should not be included in the verb list', () => {
     const input = 'module';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 0;
 
     expect(actual).toEqual(expected);
@@ -139,7 +157,7 @@ describe('verb', () => {
 
   it('"charge" should be included in the verb list', () => {
     const input = 'charge';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);
@@ -147,7 +165,7 @@ describe('verb', () => {
 
   it('"recharge" should be included in the verb list', () => {
     const input = 'recharge';
-    const actual = index.filter(v => v === input).length;
+    const actual = verbs.filter(v => v === input).length;
     const expected = 1;
 
     expect(actual).toEqual(expected);

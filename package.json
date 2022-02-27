@@ -1,20 +1,24 @@
 {
   "name": "verb-corpus",
   "version": "2.1.0",
-  "description": "Almost complete programming English verb list.",
+  "description": "Almost complete English verb list.",
   "main": "index.js",
   "files": [
-    "resources/complete.json",
-    "./index.js"
+    "generated/complete.json",
+    "generated/lexicon.json",
+    "generated/programming.json",
+    "index.d.ts",
+    "index.js"
   ],
   "scripts": {
-    "build": "node build",
+    "build": "node scripts/build",
     "pub:patch": "npm version patch",
     "pub:minor": "npm version minor",
     "pub:major": "npm version major",
     "preversion": "npm test",
     "postversion": "npm publish && git push && git push --tags",
-    "test": "npm run build && jest"
+    "vitest": "vitest run",
+    "test": "npm run build && npm run vitest"
   },
   "repository": {
     "url": "https://github.com/legend80s/verb-corpus.git"
@@ -39,6 +43,7 @@
     "english-verbs-gerunds": "^1.1.8",
     "english-verbs-irregular": "^1.1.8",
     "git-commit-msg-linter": "^3.1.0",
-    "jest": "^26.6.3"
+    "pos": "^0.4.2",
+    "vitest": "^0.5.7"
   }
 }
