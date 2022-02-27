@@ -1,6 +1,6 @@
 {
   "name": "verb-corpus",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Almost complete English verb list.",
   "main": "index.js",
   "files": [
