@@ -29,7 +29,7 @@ npm install --save verb-corpus
 
 ## Use
 
-[Playground - RunKit](https://runkit.com/embed/yj0inu8j8ji7).
+[Playground - RunKit](https://npm.runkit.com/verb-corpus).
 
 ```javascript
 /** @type {{ programming: string[]; lexicon: string[]; complete: string[]; }} */
