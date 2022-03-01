@@ -3,6 +3,14 @@
 module.exports = [
   "feed",
   "go",
+  "hide",
+  "log",
+  "not",
+  'to',
+  'is',
+  'has',
+  'should',
+  "next",
 
   // https://juejin.cn/post/6844904085632581640
   ...[
@@ -82,12 +90,6 @@ module.exports = [
     "depreciate",
     "aggregate"
   ],
-
-  'to',
-  'is',
-  'has',
-  'should',
-  "next",
 
   'locate',
   'uglify',
