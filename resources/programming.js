@@ -2,6 +2,7 @@
 // 891 => 958
 module.exports = [
   "feed",
+  "go",
 
   // https://juejin.cn/post/6844904085632581640
   ...[
@@ -151,7 +152,7 @@ module.exports = [
     "group",
     "includes",
     "invoke",
-    "key",
+    // "key",
     "map",
     "order",
     "partition",
