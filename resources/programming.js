@@ -12,6 +12,9 @@ module.exports = [
   'should',
   "next",
 
+  "expose",
+  "choose",
+
   // https://juejin.cn/post/6844904085632581640
   ...[
     "new",
