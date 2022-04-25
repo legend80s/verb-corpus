@@ -27,6 +27,14 @@ describe('Programming Verbs', () => {
     expect(actual).toEqual(expected);
   });
 
+  it('"disclaim" should be included in the verb list', () => {
+    const input = 'disclaim';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
   it('"expose" should be included in the verb list', () => {
     const input = 'expose';
     const actual = verbs.filter(v => v === input).length;
