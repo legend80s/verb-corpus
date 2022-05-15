@@ -17,8 +17,9 @@
     "pub:major": "npm version major",
     "preversion": "npm test",
     "postversion": "npm publish && git push && git push --tags",
+    "pretest": "npm run build",
     "vitest": "vitest run",
-    "test": "npm run build && npm run vitest"
+    "test": "npm run vitest"
   },
   "repository": {
     "url": "https://github.com/legend80s/verb-corpus.git"
@@ -34,8 +35,7 @@
     "Complete verb list"
   ],
   "tnpm": {
-    "mode": "yarn",
-    "lockfile": "enable"
+    "mode": "yarn"
   },
   "author": "",
   "license": "MIT",
