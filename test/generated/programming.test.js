@@ -3,6 +3,14 @@ import { describe, it, expect } from 'vitest';
 const { programming: verbs } = require('../..')
 
 describe('Programming Verbs', () => {
+  it('"cancel" should be included in the verb list', () => {
+    const input = 'cancel';
+    const actual = verbs.filter(v => v === input).length;
+    const expected = 1;
+
+    expect(actual).toEqual(expected);
+  });
+
   it('"format" should be included in the verb list', () => {
     const input = 'format';
     const actual = verbs.filter(v => v === input).length;

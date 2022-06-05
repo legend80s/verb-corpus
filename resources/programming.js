@@ -1,6 +1,7 @@
 /** programming verbs collected from internet websites */
 // 891 => 958
 module.exports = [
+  "cancel",
   "format",
   "toast",
   "disclaim",
