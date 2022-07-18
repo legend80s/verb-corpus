@@ -5,7 +5,6 @@ module.exports = [
   'click',
   'compute',
   'draw',
-  'expo',
   'freeze',
   'unfreeze',
   'fund',
