@@ -9,7 +9,6 @@ describe('Programming Verbs', () => {
     'click',
     'compute',
     'draw',
-    'expo',
     'freeze',
     'unfreeze',
     'fund',
@@ -34,6 +33,7 @@ describe('Programming Verbs', () => {
   });
 
   [
+    'expo',
     'success',
   ].forEach((word) => {
     it(`"${word}" is not a verb`, () => {
