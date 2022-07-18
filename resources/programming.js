@@ -17,7 +17,6 @@ module.exports = [
   'retry',
   'revoke',
   'stick',
-  'success',
   'sync',
   'whether',
   "cancel",

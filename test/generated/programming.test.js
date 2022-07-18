@@ -21,7 +21,6 @@ describe('Programming Verbs', () => {
     'retry',
     'revoke',
     'stick',
-    'success',
     'sync',
     'whether',
   ].forEach((word) => {
@@ -32,7 +31,19 @@ describe('Programming Verbs', () => {
 
       expect(actual).toEqual(expected);
     });
-  })
+  });
+
+  [
+    'success',
+  ].forEach((word) => {
+    it(`"${word}" is not a verb`, () => {
+      const input = word;
+      const actual = verbs.filter(v => v === input).length;
+      const expected = 0;
+
+      expect(actual).toEqual(expected);
+    });
+  });
 
   it('"format" should be included in the verb list', () => {
     const input = 'format';
