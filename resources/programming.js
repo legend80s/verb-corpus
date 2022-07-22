@@ -1,6 +1,12 @@
 /** programming verbs collected from internet websites */
 // 891 => 958
 module.exports = [
+  'deal',
+  'derive',
+  'poll',
+  'sleep',
+  'catch',
+  'blur',
   'batch',
   'click',
   'compute',

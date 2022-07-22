@@ -4,6 +4,12 @@ const { programming: verbs } = require('../..')
 
 describe('Programming Verbs', () => {
   [
+    'deal',
+    'derive',
+    'poll',
+    'sleep',
+    'catch',
+    'blur',
     'cancel',
     'batch',
     'click',
